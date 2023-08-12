@@ -24,20 +24,20 @@ Coletor de Criptomoedas
     - <b>Vermelho:</b> Não Cadastrado<br/>
     - <b>Amarelo:</b> Necessita validação do email<br/>
     - <b>Azul:</b> Criptomoeda apta á coletar<br/>
-- Para efetuar o cadastro de cada criptomoeda, clique no ícone em forma de núvem.
-  - A barra de status será alterada de Vermelho para amarelo
+- Para efetuar o cadastro de cada criptomoeda, clique no ícone em forma de núvem.<br/>
+  - A barra de status será alterada de Vermelho para amarelo<br/>
 
-- Acesse seu email. Verá que para cada criptomoeda foi enviado um email de confirmação, copie a url, e volte para o aplicativo
-  - Ao tocar na imagem correspondente a criptomoeda uma nova tela se abrirá
+- Acesse seu email. Verá que para cada criptomoeda foi enviado um email de confirmação, copie a url, e volte para o aplicativo<br/>
+  - Ao tocar na imagem correspondente a criptomoeda uma nova tela se abrirá<br/>
 <img src="./images/4.jpeg" width="100" title="hover text">
-  - Insira o código copiado no email no campo designado, e clique no ícone ao lado direito.
+  - Insira o código copiado no email no campo designado, e clique no ícone ao lado direito.<br/>
   
 #### Caso todo procedimento seja realizado corretamente, seu aplicativo estará apto a coletar as criptomoedas cadastradas
 <img src="./images/5.jpeg" width="100" title="hover text">  
-- Podemos ver nesta tela várias informações referentes a coleta de criptomoedas
-  - <b>Percentual de coleta: </b> Precisa atingir 100% para conseguir retirar do site para uma carteira de sua preferência
-  - <b>Quantidade atual coletada: </b> Saldo atual da carteira
-  - <b>Data da próxima coleta: </b> Data aproximada em que a próxima coleta será executada
+- Podemos ver nesta tela várias informações referentes a coleta de criptomoedas<br/>
+  - <b>Percentual de coleta: </b> Precisa atingir 100% para conseguir retirar do site para uma carteira de sua preferência<br/>
+  - <b>Quantidade atual coletada: </b> Saldo atual da carteira<br/>
+  - <b>Data da próxima coleta: </b> Data aproximada em que a próxima coleta será executada<br/>
 <img src="./images/6.jpeg" width="100" title="hover text">  
-- Saldo atual em reais e uma estimativa com base na cotação atual, qual o valor aproximado em reais de cada criptomoeda 
+- Saldo atual em reais e uma estimativa com base na cotação atual, qual o valor aproximado em reais de cada criptomoeda <br/>
  

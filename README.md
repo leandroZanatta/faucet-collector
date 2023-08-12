@@ -2,7 +2,7 @@
 Coletor de Criptomoedas
 
 ## Instalação
-- Aplicativo disponível apenas para android.
+- Aplicativo disponível apenas para android. [Link disponível aqui](https://github.com/leandroZanatta/faucet-collector/raw/main/application-feb39a36-668b-4452-a876-42e199487a6b.apk)
 - Como não está disponível na play store, precisa de autorização de fontes desconhecidas
 - Abra o apk e autorize a instalação, um ícone será adicionado no seu celular.
 

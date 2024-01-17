@@ -2,42 +2,45 @@
 Coletor de Criptomoedas
 
 ## Instalação
-- Aplicativo disponível apenas para android. [Link disponível aqui](https://github.com/leandroZanatta/faucet-collector/raw/main/application-feb39a36-668b-4452-a876-42e199487a6b.apk)
+- Aplicativo disponível apenas para android. [Link disponível aqui](https://github.com/leandroZanatta/faucet-collector/raw/main/app-release.apk)
 - Como não está disponível na play store, precisa de autorização de fontes desconhecidas
 - Abra o apk e autorize a instalação, um ícone será adicionado no seu celular.
 
 ## Configuração
 
-##### Dados iniciais
+##### Usuários
+<img src="./images/1.jpeg" width="100" title="hover text">
 - Abra o aplicativo pelo ícone no seu celular.<br/>
- <img src="./images/1.jpeg" width="100" title="hover text">
+- Acesse o menu de usuários
+- Pressione o botão + para adicionar um novo usuário
 - <b>Apelido:</b> Insira seu nome.<br/>
 - <b>Código de Referência:</b> Insira 1.<br/>
 - <b>Email:</b> Insira seu email.<br/>
 - <b>Senha:</b> Insira uma senha com no mínimo 8 dígitos.<br/>
 - <b>Repita a senha:</b> Repita a senha<br/>
     -   Esta senha será utilizada para acesso em cada site para efetuar a coleta<br/>
+- Após o cadastro, Um novo registro aparecerá.
+<img src="./images/2.jpeg" width="100" title="hover text">
 
 ##### Registrando criptomoedas
- <img src="./images/2.jpeg" width="100" title="hover text">
-- Pode ser observado que ao canto esquerdo de cada moeda existe uma barra de status, onde cada cor possui um significado.<br/>
-    - <b>Vermelho:</b> Não Cadastrado<br/>
-    - <b>Amarelo:</b> Necessita validação do email<br/>
-    - <b>Azul:</b> Criptomoeda apta á coletar<br/>
-- Para efetuar o cadastro de cada criptomoeda, clique no ícone em forma de núvem.<br/>
-  - A barra de status será alterada de Vermelho para amarelo<br/>
+- Acesse o menu Carteiras
+- Pressione o botão + para adicionar uma nova carteira
+<img src="./images/3.jpeg" width="100" title="hover text">
 
-- Acesse seu email. Verá que para cada criptomoeda foi enviado um email de confirmação, copie a url, e volte para o aplicativo<br/>
-  - Ao tocar na imagem correspondente a criptomoeda uma nova tela se abrirá<br/>
+- Email - Dados vem preenchidos com email do usuário, PODE SER ALTERADO
+- Senha - Dados vem preenchidos com senha do usuário, PODE SER ALTERADO
+- Carteiras
+   - Selecione uma ou mais carteiras.
+- Situações:
+   - Validação Pendente - Quando selecionado apenas 1 carteira(Faz uma checagem para verificar a situação(cadastrada/não cadastrada) com os dados de login
+   - Não Cadastrado - Quando selecionado apenas 1 carteira(Efetua o cadastro no site da respectiva carteira) com os dados de login
+   - Validado - Ignora quaisquer verificações e salva as carteiras(Se tiver certeza que já está cadastrado e validado, e as informações de login estão corretas)
 <img src="./images/4.jpeg" width="100" title="hover text">
-  - Insira o código copiado no email no campo designado, e clique no ícone ao lado direito.<br/>
-  
-#### Caso todo procedimento seja realizado corretamente, seu aplicativo estará apto a coletar as criptomoedas cadastradas
-<img src="./images/5.jpeg" width="100" title="hover text">  
-- Podemos ver nesta tela várias informações referentes a coleta de criptomoedas<br/>
-  - <b>Percentual de coleta: </b> Precisa atingir 100% para conseguir retirar do site para uma carteira de sua preferência<br/>
-  - <b>Quantidade atual coletada: </b> Saldo atual da carteira<br/>
-  - <b>Data da próxima coleta: </b> Data aproximada em que a próxima coleta será executada<br/>
-<img src="./images/6.jpeg" width="100" title="hover text">  
-- Saldo atual em reais e uma estimativa com base na cotação atual, qual o valor aproximado em reais de cada criptomoeda <br/>
- 
+
+##### Dashboard
+<img src="./images/5.jpeg" width="100" title="hover text">
+Exibe o processo de execução dos faucets(horário da proxima execução, percentual para saque, valor Total das carteiras na cotação atual)
+
+- Possui 2 botões na parte superior.
+  - Forçar sincronização: Processos do android só podem ser executados de 15 em 15 minutos. Este botão força a execução para o momento atual.
+  - Atualização do apk: Com este botão é possível manter sempre atualizado seu aplicativo. 
